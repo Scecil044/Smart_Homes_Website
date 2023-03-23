@@ -1,0 +1,86 @@
+<section
+        aria-labelledby="contact"
+        class="container mx-auto overflow-hidden px-8"
+      >
+        <div class="flex flex-wrap justify-center gap-12 md:gap-20">
+          <div class="relative flex-1 md:max-w-sm">
+            <img src="./assets/lamp.png" alt="" class="mx-auto" />
+            <a
+              href=""
+              class="flex items-center justify-center mb-6 mt-6 gap-2 py-1 px-2 bg-amber-400 shadow-lg rounded-md self-center hover:shadow-none focus:ring-1 ring-offset-2 focus:ring-amber-400 ring-neutral-900"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-8 h-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+                />
+              </svg>
+
+              Download now</a
+            >
+            <img
+              src="./assets/app.svg"
+              alt="app"
+              class="hidden md:block drop-shadow-xl"
+              width="150px"
+            />
+          </div>
+          <form
+            action=""
+            class="relative grid gap-8 rounded-lg md:flex-1 p-6 border-8 border-neutral-900 my-4 max-w-sm"
+          >
+            <h2 id="contact" class="text-3xl font-bold">Lets connect</h2>
+            <!-- Name input -->
+            <div class="relative">
+              <input
+                type="text"
+                id="name"
+                class="peer w-full focus:outline-none focus:ring-2 focus:ring-amber-400 ring-offset-2 border-4 border-amber-400 focus:border-amber-400 placeholder-transparent"
+                placeholder="Your Name"
+              />
+              <label
+                for="name"
+                class="absolute -top-4 left-2 -translate-y-1/2 text-sm font-bold peer-placeholder-shown:top-1/2 peer-placeholder-shown:left-4 transition-all peer-focus:-top-4 peer-focus:left-2"
+                >Your Name</label
+              >
+            </div>
+            <!-- email input -->
+            <div class="relative">
+              <input
+                type="email"
+                id="email"
+                class="peer w-full focus:outline-none focus:ring-2 focus:ring-amber-400 ring-offset-2 border-4 border-amber-400 focus:border-amber-400 placeholder-transparent"
+                placeholder="Your email"
+              />
+              <label
+                for="name"
+                class="absolute -top-4 left-2 -translate-y-1/2 text-sm font-bold peer-placeholder-shown:top-1/2 peer-placeholder-shown:left-4 transition-all peer-focus:-top-4 peer-focus:left-2"
+                >Your Email</label
+              >
+            </div>
+            <!-- textarea -->
+            <div class="relative">
+              <textarea
+                rows="5"
+                cols="20"
+                placeholder="How can we help you"
+                class="peer resize-none w-full focus:outline-none focus:border-amber-400 border-amber-400 border-4 placeholder-transparent"
+              >
+              </textarea>
+              <label
+                for="text"
+                class="absolute -top-3 -translate-y-1/2 left-2 peer-placeholder-shown:-top-4 placeholder-shown:left-2 peer-focus:-top-4 peer-focus:left-2 text-sm transition-all font-bold"
+                >How can we help you</label
+              >
+            </div>
+          </form>
+        </div>
+      </section>
